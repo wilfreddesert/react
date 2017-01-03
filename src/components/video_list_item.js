@@ -10,8 +10,7 @@ const imageUrl = video.snippet.thumbnails.default.url;
 <div className = "media-body">
 <div className = "media-heading">{video.snippet.title}</div>
 </div>
-</div>
-	 < /li>
+</div> </li>
 
 		);
 };
