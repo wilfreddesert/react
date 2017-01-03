@@ -17,7 +17,7 @@ class App extends Component {
 		YTSearch ( {key:API_KEY, term: 'Matthew Bellamy'},
 			(videos)=>{this.setState({videos:videos,
 				selectedVideo:videos[0]});
-			//equivalent to {this.setState({videos:videos})}
+		
 });
 	}
 	render() {
