@@ -1,3 +1,10 @@
+* {
+margin:0;
+padding:0;
+
+}
+
+
 .search-bar {
 margin:20px;
 text-align:center;
@@ -5,10 +12,19 @@ text-align:center;
 
 .search-bar input {
 	width:75%;
+	color:gray;
+}
+
+.search-bar input:focus, textarea:focus{
+box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+  color:black;
 }
 
 .video-item img{
-	max-width:64px;
+	max-width:100px;
 }
 
 .video-detail .details {
@@ -23,6 +39,11 @@ text-align:center;
 }
 
 .list-group-item:hover{
-	background-color:#eee;
+	background-color:orange;
+}
+
+iframe {
+border: 5px solid rgba(81,203,238,1);
+
 }
 
